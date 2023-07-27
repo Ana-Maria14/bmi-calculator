@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+ min-height: 100vh;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ background-image: linear-gradient(to right bottom, #6bd1d1, #61d7cb, #5ddcc2, #62e0b5, #6ee4a6, #73e79c, #7bea90, #85ec84, #85f07c, #85f473, #86f76a, #88fb5f);
+ 
+}
+.bmi-calculator{
+    height: 550px;
+    width: 350px;
+    border-radius: 8%;
+    box-shadow: 1px 1.5px 2px 5px honeydew;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+}
+
+.title-box{
+    background-color: steelblue;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items:flex-start
+
+}
+
+.input{
+    background: rgb(208, 245, 190);
+    box-shadow: 0px 0px 95px -30px rgba(0, 0, 0, 0.15);
+    border-radius: 28px;
+    padding: 20px 0;
+    margin-bottom: 20px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+input{
+    outline: none;
+    border: none;
+    border-bottom: 1px solid seagreen;
+    width: 60%;
+    text-align: center;
+    font-size: 20px;
+    background-color: transparent;
+}
+h1{
+    font-family: bold;
+    font-size: 36px;
+    padding:40px 15px;
+
+}
+.box{
+    padding: 0 20px;;
+}
+.btn{
+    border-radius: 15px;
+    width: 250px;
+    height: 35px;
+    margin-bottom: 10px; 
+    font-size: 15px;
+    border: none;
+    background-color:lightgreen;
+    font-weight: 600;
+    color: aliceblue;
+}
+.bmi{
+    background-color: rgb(152, 238, 204) ;
+    border-radius: 20px;
+    width: 70px;
+    height: 45px;
+    display: inline-block;
+    margin-top: 13px;
+}
+.answer{
+    font-size: 20px;
+    font-weight: 900;
+    color: aliceblue;
+    text-align: center;
+    padding: 10px;
+
+}
+.result{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+}
+.comment{
+    margin-top: 10px;
+    font-size: 17px;;
+}
